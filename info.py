@@ -59,6 +59,7 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/+6rLtVYeaOn9jNWM1') # How to open tutorial link for verification
 
 # Others
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1502a197c85d59929d50f1cba1d5e6f967d1e962')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
